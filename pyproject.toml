@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evomap-sdk"
+version = "1.0.1"
+description = "Python SDK for EvoMap collaborative evolution marketplace"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/sudabg/evomap-sdk"
